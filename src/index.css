@@ -5,7 +5,9 @@ body,
 }
 
 body {
-  background-color: hsl(180deg, 25%, 92%);
+  background: linear-gradient(180deg, hsl(180deg, 25%, 92%) 90%, hsl(195deg, 20%, 86%) 100%);
+  /* background-image: hsl(180deg, 25%, 92%), hsl(195deg, 20%, 86%);
+  background-position: top 60%, bottom 60%; */
   margin: 0;
 }
 
@@ -14,6 +16,44 @@ body {
 *:after {
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
+}
+
+/* header */
+.CharacterEditor_header__2lHIp {
+  width: 65%;
+}
+
+/* Traits wrapper:  */
+.CharacterEditor_controlColumn__1vZ_i {
+  width: 50%;
+  /* white-space: nowrap; */
+}
+
+/* Traits  */
+.ControlPane_controlPane__2PHPZ {
+  /* white-space: nowrap; */
+  
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.ButtonRow_buttonRow__3Pz4Z {
+  /* overflow: auto;
+  white-space: nowrap; */
+}
+
+/* character wrapper  */
+.CharacterEditor_characterWrapper__fO_lt {
+  min-height: 500px;
+  width: 400px;
+  position: fixed;
+  top: 100px;
+  right: 250px;
+}
+
+
+footer a {
+  color: white;
 }
 
 /*
