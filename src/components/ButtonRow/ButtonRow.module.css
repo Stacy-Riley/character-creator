@@ -1,2 +1,16 @@
 .buttonRow {
+    /* The position relative is being used to contain
+    absolutely positioned visually hidden labels. We
+    want them to be contained by their scroll container,
+    to avoid introducing a scrollburglar at the bottom on mobil view! */
+    position: relative;
+    /* these 2 first lines make the horizonal scroll */
+    overflow: auto;
+    white-space: nowrap;
+    /* The negative margin removes the spacing of the container */
+    margin-left: -22px;
+    margin-right: -22px;
+    margin-bottom: -22px;
+    /* This padding adds back in the spacing so the scroll bar extends more left */
+    padding: 22px; 
 }
